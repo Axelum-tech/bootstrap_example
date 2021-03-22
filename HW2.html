@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HW2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>HW2</title>
+
+    <style>
+        main,footer{
+            width: 80%;
+            margin: auto;
+            margin-top:0!important;
+            padding-top: 0!important;
+            
+        }
+      
+        .carousel-item{
+            position: relative;
+            background-size: cover;
+            background-position: center;
+} 
+        .carousel-item>img{
+            position: relative;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin:auto;
+            width: 100vw;
+            height:70vh;
+            background-size: cover;
+
+        }
+        .carousel-indicators{
+            position: relative;
+            top:350px;
+            
+        }
+
+    </style>
+</head>
+<body>
+  
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+            <div class="container">
+                
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col-12 justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <p class="m-0 p-0"><a class="nav-link active text-light" aria-current="page" href="#"> Home</a></p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="m-0 p-0"><a class="nav-link text-light"  href="#">Features</a></p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="m-0 p-0"><a class="nav-link text-light" href="#">Pricing</a></p>
+                        </li>
+                        <li class="nav-item text-center">
+                            <button type="button"  data-target="#" class="btn btn-link btn-large text-center" ><i style="font-size: 32px; margin-top: -3px; margin-right: 15px ;" class="text-center pl-3 fab fa-facebook-square"></i></button>
+                     </li>                  
+                    </ul>
+                </div>           
+            </div>
+          </nav>
+    </header>
+
+    <main class="bg-light">
+        
+            <div id="myCarousel" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+        
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+        
+                </ol>
+        
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" >
+                    <img src="https://i.picsum.photos/id/204/1000/300.jpg?hmac=1BKATYnpFqQvyzAnMvsUB8i1ldy1CzDZuUcPJahNJd0" class="d-block w-100% img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://i.picsum.photos/id/272/1000/300.jpg?hmac=3XUbT13Lkm2O0gNHBNtposA6545BL4P72P36I0ZPP2c" class="d-block w-100% img-fluid" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://i.picsum.photos/id/437/1000/300.jpg?hmac=fdkYnUhivovK0K7h7yUg6xqneelw7QWAMV88oOFlRcs" class="d-block w-100% img-fluid" alt="...">
+                    </div>        
+                </div>
+                <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="sr-only">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="sr-only">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 text-center"><img src="https://i.picsum.photos/id/663/400/300.jpg?hmac=nO7De1wNAT0_7ZYmhHCIe8b2wnNzJjWgU5QRDO4sd3c" alt="" style="width: 100%;"></div>
+            <div class="col-md-8 text-center"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus dolorem dolor id aliquam, sint animi atque molestias. Consequuntur sed voluptatem placeat porro veniam sunt, assumenda ullam laboriosam quisquam exercitationem, totam eligendi distinctio optio illum alias, nesciunt sequi quos ipsum quas molestiae ab reiciendis. Iure quisquam vitae beatae minima repudiandae nesciunt?</p></div>
+        </div>
+    </div>
+  
+
+    <div class="container pt-1 pb-5 mt-5 bg-secondary">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2>Our Sponsors</h2>
+            </div>
+        </div>
+
+        <div class="row ">
+            
+            
+                <div class=" col-sm text-center mb-3"><img src="/bootstrap_ex/bootstrap-demo-master/png/sponsor1.png " style="width: 100px;" alt=""></div>
+                <div class=" col-sm text-center mb-3"><img src="/bootstrap_ex/bootstrap-demo-master/png/sponsor2.png" style="width: 100px;" alt=""></div>
+                <div class=" col-sm text-center mb-3"><img src="/bootstrap_ex/bootstrap-demo-master/png/sponsor1.png " style="width: 100px;" alt=""></div>
+                <div class=" col-sm text-center mb-3"><img src="/bootstrap_ex/bootstrap-demo-master/png/sponsor2.png" style="width: 100px;" alt=""></div>
+                <div class=" col-sm text-center mb-3"><img src="/bootstrap_ex/bootstrap-demo-master/png/sponsor1.png " style="width: 100px;" alt=""></div>
+                
+                
+            
+        </div>
+    </div>
+    <div class="container-fluid pl-0 pr-0">
+        <div class="row pt-1  mt-5 ">
+            <div class="col-12 text-center">
+                <h2>Our prices</h2>
+            </div>
+        </div>
+    </div>
+
+        <div class="col-12 ">
+            <div class="row  ">
+                <div class="col-md-4 col-sm-12  ">
+                    <div class="card-body rounded-top border border-secondary bg-light mb-3">                               
+                        
+                            <h3 class="card-title text-left mb-2">Personal</h3>
+                            <h2 class="text-center">49,99$</h2>
+                            <div class="text-center">
+                               <button type="button" class="btn btn-primary col-10" data-toggle="modal" data-target="#myModal">Reserve</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-3">
+                    <div class="card-body rounded-top border border-secondary bg-light">                               
+                        
+                            <h3 class="card-title text-left mb-2">Company</h3>
+                            <h2 class="text-center">199,99$</h2>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary col-10" data-toggle="modal" data-target="#myModal">Reserve</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12  mb-3">
+                    <div class="card-body rounded-top border border-secondary bg-light">                               
+                        
+                            <h3 class="card-title text-left mb-2">Sponsor</h3>
+                            <h2 class="text-center">999,99$</h2>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary col-10" data-toggle="modal" data-target="#myModal">Reserve</button>
+                            </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="container-fluid bg-secondary mt-5">
+            <div class="row">
+                <div class="col-12 text-center ">
+                    <h2>Contact us</h2>
+                </div>
+            </div>
+            <form>
+                <div class="row d-flex justify-content-center mt-3 bg-secondary">
+                    <div class="col-6 pr-3" >
+                        <div class="mb-3">
+                            <input type="text" class="form-control"   placeholder="Name">
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="mb-3">
+                            
+                            <input type="email" class="form-control"  placeholder="Email">
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div class="row d-flex justify-content-center ">               
+                    <div class="col-12 ">
+                        <div class="mb-3">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                          </div>
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center ">               
+                    <div class="col-12 ">
+                        <div class="mb-3">
+                                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                          </div>
+                    </div>
+                </div>              
+                <a class="btn btn-primary mb-3" href="#" role="button">Send</a>               
+            </form>
+        </div>            
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row pt-3 ">
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="m-0 p-0">Adress: Republic of Moldova</p>                                         
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-center ">
+                    <p>Ion Nistor 17 Street</p>                                     
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-center ">
+                    <p>Find us on: 
+                        <a href="#"><i style="font-size: 1.5rem" class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i style="font-size: 1.5rem;" class="fab fa-instagram"></i></a>
+                        <a href="#"><i style="font-size: 1.5rem; " class="fab fa-twitter-square"></i></a>                               
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="container ">
+        <div class="row modal_form ">
+            <div class="col-12">               
+                <div class="modal fade"  id="myModal" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                    <div class="modal-dialog ">
+                      <div class="modal-content "> 
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Reserve your service</h5>
+                        </div>                      
+                        <div class="modal-body">
+                            <form>    
+                                <div class="col-12 mb-3">
+                                    <input type="text" class="form-control" id="nameSurname"  placeholder="Name">
+                                </div>
+                                <div class="col-12 mb-3">                                  
+                                  <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email">
+                                </div>                                                    
+                            </form>
+
+                          <!-- <p>Modal body text goes here.</p> -->
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Reserve</button>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
